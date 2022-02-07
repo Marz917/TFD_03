@@ -1,0 +1,43 @@
+.storebanner img{
+ vertical-align: top;
+ width: 100%;
+ height: 600px;
+}
+
+
+.store{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+   
+}
+
+.storebanner h2{
+    padding: 40px;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.storename img{
+display: inline-block;
+height: 340px;
+width: 488px;
+border-radius: 0px;
+padding: 40px;
+
+}
+
+.storetxt{
+
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+margin: 60px;
+padding: 40px;
+color: black;
+font-size: 20px;
+display: inline-block;
+}

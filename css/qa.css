@@ -1,0 +1,42 @@
+
+
+.qa{
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+    padding-top: 120px;
+    
+}
+
+.qatext{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.select ul{
+    margin : 0 auto;
+}
+
+.select1 li{
+    background-color:rgb(153, 153, 153);
+    text-align: left;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+    width:1200px;
+    height: 40px;
+    color:white;
+    
+   
+    }
+
+.select1 li:nth-child(odd){
+    background-color:black;
+    color: #fff;
+    text-align: left;
+}
+
+
+
+
+
+
