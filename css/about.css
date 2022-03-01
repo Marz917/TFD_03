@@ -1,50 +1,112 @@
-.about_wrap{
-    width: 1200px;
-    height: 1200px;
-}
 
+/* 上方about */
+.wrap{
+    width: 1200px;
+    margin-top: 200px;
+    margin: 0 auto;
+}
 
 .about-wrapper{
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
-.about-wrapper img {
-    width: 667px;
-    /* height: 400px; */
-    
+.about-wrapper img{
+width: 600px;
+height: 400px;
 }
 
 .about{
     width: 400px;
     float: right;
     text-align: left;
-    height: 300px;
-    padding-top: 160px;
-    margin-left: 133px;
-}
-
-.fashion{
-    float: left;
-    width: 400px;
-    height: 300px;
-
-    /* padding-top: 160px; */
-    margin-left: 133px;
-    margin-top: 120px;
+    margin-top: 160px;
+    margin-right:100px ;
     
 
 }
 
-.about-wrapper h2 {
-    color:rgb(206, 117, 7);
-    text-align: left;
-    font-size: 48px;
-    margin-bottom: 15px;
-    margin-right: 60px;
+/* 下方fashion */
+
+.fashion{
+    width: 400px;
+    float:left ;
+    text-align:left;
+    padding-top: 100px;
+    margin-top: 60px;
+
+} 
+
+.fashion-wrapper{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.about-wrapper p {
-    font-size: 16px;
-    letter-spacing: 1px;
-    margin-right: 100px;
+.fashion-wrapper img{
+    width: 600px;
+    height: 400px;
+    margin-left: 200px;
+    }
+    
+
+.fashion-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+
 }
+
+/* 文字樣式 */
+
+.about-wrapper h2 {
+    text-align: center;
+    font-weight: 800;
+    line-height: 1.6;
+    color:rgb(206, 117, 7);
+    }
+
+.fashion-wrapper h2 {
+    text-align: center;
+    font-weight: 800;
+    line-height: 1.6;
+    color:rgb(206, 117, 7);
+        }
+
+.about_wrap p{
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(63, 63, 63);
+    font-family: serif;
+}
+   
+
+
+/* RWD */
+
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    .wrap{
+      width: 100%;}
+    .about-wrapper{
+      width: 100%;
+    }
+    .about-wrapper img{
+      width:100%
+    }
+    .about{
+      width: 100%;
+    }
+    
+    }  
+
+
+    @media (max-width: 575.98px){
+        .wrap{
+            width: 100%;}
+          .about-wrapper{
+            width: 100%;
+          }
+          .about-wrapper img{
+            width:100%
+          }
+          .about{
+            width: 100%;
+        }
+        }

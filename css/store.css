@@ -1,43 +1,128 @@
-.storebanner img{
- vertical-align: top;
- width: 100%;
- height: 600px;
-}
-
-
-.store{
-    width: 1200px;
-    display: flex;
-    flex-wrap: wrap;
+ .big_title h1{
+    font-weight: 600;
+    padding-top: 100px;
+    margin: auto 0;
+    font-weight: normal;
+    } 
+    
+.out{
+    padding-top: 40px;
+    max-width: 100%;
+    width: 1000px;
     margin: 0 auto;
-   
 }
 
-.storebanner h2{
-    padding: 40px;
-    font-size: 32px;
-    font-weight: 800;
-    text-align: center;
+
+.main{
+    padding-top: 40px;
+    display: flex;
+    width: 100%;
+    
 }
 
-.storename img{
-display: inline-block;
-height: 340px;
-width: 488px;
-border-radius: 0px;
-padding: 40px;
 
+.pic{
+    position: relative;
+    width: 500px;
+    height: 400px;
 }
 
-.storetxt{
-
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-margin: 60px;
-padding: 40px;
-color: black;
-font-size: 20px;
-display: inline-block;
+.pic img{
+    position: absolute;
+    max-width: 100%;
+    max-height:100% ;
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    /* margin: auto; */
 }
+
+
+.right1{
+    padding-top: 100px;
+    float: right;
+    padding-left: 40px;
+    
+    /* vertical-align:middle; */
+    
+}
+
+
+.right1 h1{
+    color: black;
+    text-align: left;
+    /* text-align: left; */
+    line-height: 1.6;
+    font-size: 26px;
+    padding-bottom: 14px;
+    
+}
+
+.right1 p{
+    line-height: 1.6;
+    letter-spacing: 0ch;
+    text-align: left;
+    font-weight: 200;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+
+  .out {
+    width: 750px;
+    /* flex-direction: column; */
+
+      }
+
+      .pic{
+        width: 50vw;
+        /* max-width: 80%; */
+      }
+
+      img{
+      max-width:80%
+      }
+      .right h1 {
+       font-size: 20px;
+       line-height: 1.6;
+      }
+
+      .right{
+        flex-direction: column;
+        float: none;
+        width: 100%;
+      }
+
+
+      .header{
+          width: 100%;
+        }
+
+      .header_wrap{
+        display:none;
+      }
+        #ham{
+          display:block;
+        }
+}
+
+
+
+
+
+
+
+/* nav */
+ #ham{
+    display:none;
+  }
+  .fa-1x {
+    font-size: 1.5rem;
+    }
+    .navbar-toggler.toggler-example {
+    cursor: pointer;
+    }
+    .dark-text {
+    color: black;
+    } 
+  

@@ -7,119 +7,262 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>Fashion Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 </head>
-
-
 
 <body>
 
-    
+    <!-- 導覽列 -->
     <header>
         <div class="header_wrap">
-            <label for="nav-check" class="hb"></label>
+  
             <div class="logo">
-                <h1>
-                    <a href="index.html"><img src="./img/logo/資產 2.png" alt=""></a>
-                </h1>
+
+                <a href="index.html"><img src="./img/logo/fashion store_logo.png" alt=""></a>
+
             </div>
             <nav class="navbar">
                 <ul>
-                    <li><a href="aboutus.html">品牌故事</a></li>
-                    <li><a href="#">線上購物</a></li>
-                    <li><a href="storeplace.html">門市據點</a></li>
-                    <li><a href="brand.html">常見問題</a></li>
-                    <li><a href="contact.html">聯絡我們</a></li>
+                    <li><a href="aboutus.html">ABOUT</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="product.html">SHOP</a></li>
+                    <li><a href="storeplace.html">STORE</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
                 </ul>
             </nav>
 
-            <!-- <----rightnav -->
-            <div class="quickcart">
-                <li><a href="#">購物車</a></li>
-                <li><a href="login.html">會員登入</a></li>
-                <li><a href="#">最愛</a></li>
+            <!-- icon -->
+            <div class="icon">
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href="./login.html"><i class="fa-solid fa-user"></i></i></a></li>
             </div>
         </div>
         </div>
+
+    
+    <!-- nav -->
+    <div id = "ham">
+    <!--Navbar-->
+    <nav class="navbar navbar-light light-blue lighten-4">
+
+    <!-- Navbar brand -->
+    <a href="index.html"><img src="./img/logo/fashion store_logo.png" alt="" c></a>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+      aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-text"><i
+          class="fas fa-bars fa-1x"></i></span></button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">NEWS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">SHOP</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="storeplace.html">STORE</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./login.html">LOGIN</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">CART</a>
+        </li>
+      </ul>
+    </div>  
+  </nav>
+</div>
+
+
+
+
     </header>
 
-    <div class="banner">
-        <img src="./img/product/parker-burchfield-tvG4WvjgsEY-unsplash (1).jpg" alt="">
+    <div class="breadcrumb">
+        <div class="breadcrumb_inner">
+            <div class="breadcrumb_text">
+                <a class="label" href="#">ALL</a>
+                |
+                <a class="label" href="#">BEST HIT ITEMS</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="big_title">
+
+
+        <h1>SHOP</h1>
     </div>
 
+    <main class="pd_container">
+        <div class="left_filter">
+            <div class="hh">
+                <h2 class="filter_title">PRODUCT</h2>
+            </div>       
+            <ul>
+                <li><a href="#">BEST HIT ITEMS</a></li>
+                <li><a href="#">ALL</a></li>
+                <li><a href="#">TOP</a></li>
+                <li><a href="#">BOTTOM</a></li>
+                <li><a href="#">ACCESSORIES</a></li>
+            </ul>
+        </div>
+
+       
+
+        <div class="rightbox">
+
+        <div class="filterinfo">
+            <span>BEST HIT ITEM</span>
+            
+        <div class="sort">
+            <select class="myselect">
+                    <option>SORT</option>
+                    <option value="0">Most recent</option>
+                    <option value="1">Most popular</option>
+                    <option value="2">Price: low to high</option>
+                    <option value="3">Price: high to low</option>
+    
+                </select>
+            </div>
+        </div>
+    
+         
+
+            <ul class="main_items">
+                <li>
+                    <a href="#">
+                        <img src="./img/product/1.jpg" alt="">
+                        <h3 class="item_name">212 SAVAGE .</h3>
+                        <p class="item_price">NT$799</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./img/product/2.jpg" alt="">
+                        <h3 class="item_name">212 SAVAGE .</h3>
+                        <p class="item_price">NT$799</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./img/product/3.jpg" alt="">
+                        <h3 class="item_name">212 SAVAGE .</h3>
+                        <p class="item_price">NT$799</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./img/product/4.jpg" alt="">
+                        <h3 class="item_name">212 SAVAGE .</h3>
+                        <p class="item_price">NTS.799</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./img/product/5.jpg" alt="">
+                        <h3 class="item_name">212 SAVAGE .</h3>
+                        <p class="item_price">NTS.799</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./img/product/6.jpg" alt="">
+                        <h3 class="item_name">212 SAVAGE .</h3>
+                        <p class="item_price">NTS.799</p>
+                    </a>
+                </li>
+                
+
+
+                
+            </ul>
+
+        </div> 
+        
+    </main>
+    <!-- <div class="pd_inner">
+    <div class="container">
+        <div class="filter">
+            
+            <h2 class="filter_title">SORT</h2>
+            
+            <ul>
+                <li><a href="#">BEST HIT ITEMS</a></li>
+                <li><a href="#">ALL</a></li>
+                <li><a href="#">TOP</a></li>
+                <li><a href="#">BOTTOM</a></li>
+                <li><a href="#">ACCESSORIES</a></li>
+            </ul>
+        </div>
+
+            </div>
+
+            <div class="right_box">
+                <div class="info">
+                <div class="boxtitle">
+                    <h1 class="label">BEST HIT ITEMS</h1>
+                </div>
+                    <select class="myselect">
+                        <option>SORT</option>
+                        <option value="0">Most recent</option>
+                        <option value="1">Most popular</option>
+                        <option value="2">Price: low to high</option>
+                        <option value="3">Price: high to low</option>
+                        
+                    </select>
+                    
+                </div>
+            </div> 
 
 
 
-
-
-    <div class="wrapper">
-
-        <h1>所有商品</h1>
-
-        <ul>
-            <li>
-                <img src="./img/product/1.jpg">
-                <h3>LOGO短袖</h3>
-                <p>NTS.499</p>
-            </li>
-            <li>
-                <img src="./img/product/2.jpg">
-                <h3>LOGO短袖黑色短袖</h3>
-                <p>NTS.499</p>
-            </li>
-            <li>
-                <img src="./img/product/3.jpg">
-                <h3>紅色LOGO短袖</h3>
-                <p>NTS.699</p>
-            </li>
-            <li>
-                <img src="./img/product/4.jpg">
-                <h3>LOGO短袖</h3>
-                <p>NTS.699</p>
-            </li>
-            <li>
-                <img src="./img/product/5.jpg">
-                <h3>白色LOGO短袖</h3>
-                <p>NTS.399</p>
-            </li>
-            <li>
-                <img src="./img/product/6.jpg">
-                <h3>白色字母短袖</h3>
-                <p>NTS.799</p>
-            </li>
-            <li>
-                <img src="./img/product/7.jpg">
-                <h3>黑色字母短袖</h3>
-                </p>NTS.599</p>
-            </li>
-            <li>
-                <img src="./img/product/8.jpg">
-                <h3>素面襯衫</h3>
-                <p>NTS.ㄚ99</p>
-            </li>
-
-        </ul>
-    </div>
-    </div>
 
     <!-- footer -->
 
-    <div class="footer">
-        <div class="contact">
-            <p>
-                營業時間：周一至周五 09:30-18:00<br>
-                客服電話：02-2777-0555<br>
-                E-mail：fashionstore@gmail.com
+    <!-- <div class="footer">
+            <div class="contact">
+                <p>
+                    營業時間：周一至周五 09:30-18:00<br>
+                    客服電話：02-2777-0555<br>
+                    E-mail：fashionstore@gmail.com
+                </p>
+            </div>
+
+            <p class="text">
+                本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。
+                參考資源：https://www.soulami.com.tw/
             </p>
-        </div>
-
-        <p class="text">
-            本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。
-            參考資源：https://www.soulami.com.tw/
-        </p>
 
 
-        </footer>
+            </footer> -->
 
-    </body>
+</body>

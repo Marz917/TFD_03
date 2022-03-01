@@ -1,0 +1,193 @@
+.big_title {
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+    text-align: center;
+    color: black;
+}
+
+
+.out{
+    max-width: 100%;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.main{
+display: flex;
+padding-bottom: 20px;
+/* padding-top: 20px; */
+width: 100%;
+}
+
+/* .item img{
+    object-fit: contain;
+    width: 386px;
+    height: 100%;
+} */
+
+
+
+
+.right{
+    padding-left: 20px;
+    
+}
+
+.right a{
+    text-decoration: none;
+}
+
+.right h1:hover{
+text-decoration: underline;
+
+}
+
+.right h1{
+    color: black;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 26px;
+    padding-bottom: 14px;
+}
+
+.right p{
+text-align: left;
+color: rgb(71, 71, 71);
+font-weight: 200;
+
+}
+
+
+
+
+
+ .pic{
+    position: relative;
+    width: 386px;
+    height: auto;
+    height: 292px;
+    
+} 
+
+.pic img{
+    position: absolute;
+    max-width: 100%;
+    /* max-height:100% ; */
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+
+
+
+
+#ham{
+    display:none;
+  }
+  .fa-1x {
+    font-size: 1.5rem;
+    }
+    .navbar-toggler.toggler-example {
+    cursor: pointer;
+    }
+    .dark-text {
+    color: black;
+    }
+
+
+
+/* RWD */
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+
+    .main {
+      width: 750px;
+      /* flex-direction: column; */
+
+        }
+
+        .pic{
+          width: 50vw;
+          /* max-width: 80%; */
+        }
+
+        img{
+        max-width:80%
+        }
+        .right h1 {
+         font-size: 20px;
+         line-height: 1.6;
+        }
+
+        .right{
+          flex-direction: column;
+          float: none;
+          width: 100%;
+        }
+
+
+        .header{
+            width: 100%;
+          }
+
+        .header_wrap{
+          display:none;
+        }
+          #ham{
+            display:block;
+          }
+}
+
+@media (max-width:575.98px){
+    .footer {
+      max-width: 100%;
+    }
+    .main{
+      float: none;
+      max-width: 100%;
+      width: 375px; 
+      display:flex;
+      flex-direction: column;
+      align-items: center; 
+      margin: 0;
+      padding: 0;
+    }
+
+
+    .pic{
+    max-width: 100%;
+    padding-bottom: 40px;
+    
+    }
+    .right{
+      text-align: center;
+      width: 90%;
+      padding-top: 20px;
+ 
+        /* vertical-align:top;  */
+
+    }
+
+    .right h1{
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
+    .header{
+        width: 100%;
+      }
+
+    .header_wrap{
+      display:none;
+    }
+      #ham{
+        display:block;
+      }
+}

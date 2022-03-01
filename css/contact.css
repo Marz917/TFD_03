@@ -1,5 +1,5 @@
 .from_group {
-    width: 800px;
+    width: 600px;
     display: flex;
     margin: 20px auto;
     text-align: right;
@@ -37,12 +37,14 @@ input[type="email"] {
 
 .contact_us_wrap {
     width: 1000px;
+    max-width: 100%;
+   
     margin: 30px auto 75px;
 }
 
 .divider {
     padding-top: 100px;
-    max-width:1200px;
+    max-width:1000px;
     background-size: contain;
     margin: auto;
     display: flex;
@@ -63,4 +65,34 @@ input[type="email"] {
     font-weight: 300;
     border: none;
     margin-bottom: 24px;
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    .contact_us{
+        max-width: 100%;
+    }
+}
+
+@media (max-width:575.98px){
+    .contact_us .contact_us_wrap{
+        max-width: 400px;
+}
+
+.from {
+    width: 40%;
+}
+
+.from_group{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.from_btn{
+    width: 100%;
+}
+.from_group label{
+    text-align: left;
+}
+
 }

@@ -4,6 +4,7 @@
 }
 
 .login{
+  
     position: absolute;
     width: 600px;
     height: 400px;
@@ -20,6 +21,7 @@
   
   
   .form{
+    max-width: 100%;
     position: absolute;
     color:#fff;
     margin: 0 auto;
