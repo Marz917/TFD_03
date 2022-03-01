@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>Fashion Store</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
@@ -36,7 +37,7 @@
             </div>
             <nav class="navbar">
                 <ul>
-                    <li><a href="aboutus.html">ABOUT</a></li>
+                    <li><a href="#">ABOUT</a></li>
                     <li><a href="news.html">NEWS</a></li>
                     <li><a href="product.html">SHOP</a></li>
                     <li><a href="storeplace.html">STORE</a></li>
@@ -106,15 +107,16 @@
 <div class="banner">
     <div class="banner_top">
         <div class="banner_txt">
-            <h1>Lorem ipsum is placeholder text</h1>
-            <p>Duis aute irure dolor in reprehenderit in voluptate </p>
-            <a href="#">READ MORE</a>
+            <h1>Clothes for your best moments.</h1>
+            <p>Boost your Style Sense. </p>
+            <a href="#">SHOP NOW</a>
         </div>
     </div>
 </div>
 
 
 <!-- 中間分類欄位 -->
+<div class="custom_block" data-aos="fade-up">
  <div class="indextitle">
     <h1>CATEGORY</h1>
 </div> 
@@ -147,12 +149,13 @@
     </div>
 
 </div>
+</div>
 
 <!-- 下方最新到貨 -->
 <div class="indextitle">
     <h1>NEW ARRIVAL</h1>
 </div>
-
+<div class="custom_block" data-aos="fade-up">
 <div class="hot_container">
     <div class="grow box">
         <a href="">
@@ -221,6 +224,7 @@
 <div class="loadmore">
     <a href class="loadmore">LOAD MORE</a>
 </div>
+</div>
 
 
 
@@ -249,8 +253,11 @@
 
     </div> 
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 
-<!-- <script src="./js/common.js"></script> -->
 </body>
 
 </html>

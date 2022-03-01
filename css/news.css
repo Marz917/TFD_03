@@ -109,13 +109,13 @@ font-weight: 200;
 
     .main {
       width: 750px;
-      /* flex-direction: column; */
+     
 
         }
 
         .pic{
           width: 50vw;
-          /* max-width: 80%; */
+        
         }
 
         img{
@@ -162,16 +162,17 @@ font-weight: 200;
 
 
     .pic{
+    margin: 0 auto;
     max-width: 100%;
     padding-bottom: 40px;
     
     }
     .right{
       text-align: center;
-      width: 90%;
+      width: 100%;
       padding-top: 20px;
  
-        /* vertical-align:top;  */
+       
 
     }
 

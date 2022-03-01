@@ -14,6 +14,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
+    filter:brightness(80%);
 
 }
 
@@ -43,10 +44,11 @@
     color: white;
     margin-bottom: 30px;
     text-align: left;
+    font-weight: 600;
     }
 
 .banner_txt p{
-    
+    font-weight: 200;
     font-size: 18px;
     color: white;
     margin-bottom: 20px;
