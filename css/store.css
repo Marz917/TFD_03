@@ -122,12 +122,20 @@
     max-width: 100%;
   }
 
+  .pic{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 300px;
+   }
+
 
 
   .main{
     float: none;
     max-width: 100%;
-    width: 375px; 
+    /* width: 375px;  */
     display:flex;
     flex-direction: column;
     
@@ -136,6 +144,7 @@
   }
 
   .right1{
+    
     margin: 0;
     padding: 0;
     text-align: center;
