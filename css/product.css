@@ -143,6 +143,12 @@ flex-wrap: wrap;
 
 h3.item_name{
     padding-top: 12px;
+    font-size: 14px;
+}
+
+p.item_price{
+    font-size: 14px;
+    font-weight: 200;
 }
 
 .main_items img{
